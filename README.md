@@ -34,7 +34,8 @@ I have hands-on experience in AI data annotation, video annotation, robotics mot
 ### 📫 Connect With Me
 
 - LinkedIn: [Atmansyah Lubis](https://linkedin.com/in/atmansyah-lubis-669543173)
-- Portfolio: [Remotenesia](https://remotenesia7.wordpress.com/)
+- Portfolio: https://github.com/Atmansyah
+- Email: gjkt.1712@gmail.com
 
 ---
 
