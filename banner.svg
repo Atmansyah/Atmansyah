@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <rect width="1200" height="260" fill="#021B33"/>
+  <rect y="204" width="1200" height="56" fill="#0088F0"/>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="72" font-size="46" font-weight="bold" fill="#FFFFFF">ATMANSYAH LUBIS</text>
+    <text x="600" y="124" font-size="36" font-weight="bold" fill="#FFFFFF">AI TRAINER</text>
+    <text x="600" y="170" font-size="27" fill="#7FD0FF">AI Data Annotation | Evaluation | Quality Assurance</text>
+    <text x="600" y="241" font-size="22" font-weight="bold" fill="#FFFFFF">INDONESIA | REMOTE | AI PROJECTS</text>
+  </g>
+</svg>
