@@ -95,7 +95,9 @@ Room identification, object labeling, and spatial annotation.
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
 
+## Portfolio Preview
 
+![My Portfolio](Githubpic.jpeg)
 ---
 
 *Interested in contributing to AI training, data annotation, and machine learning projects.*
