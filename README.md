@@ -1,4 +1,7 @@
-# Hi, I'm Atmansyah Lubis 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/banner.svg" width="100%" alt="Atmansyah Lubis - AI Trainer">
+</p>
+
 
 ### AI Data Annotator | AI Trainer | Data Quality Evaluator
 
