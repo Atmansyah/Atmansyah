@@ -13,6 +13,45 @@ With a background in warehouse operations and inventory management, I bring stro
 
 I have hands-on experience in AI data annotation, video annotation, robotics motion capture, and AI response evaluation.
 
+
+---
+
+## 💼 Professional Skills
+
+<p align="left">
+  <img src="https://img.shields.io/badge/AI_Data_Annotation-021B33?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI_Evaluation-0088F0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Video_Annotation-1677C8?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Robotics_Motion_Capture-021B33?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/3D_Bounding_Boxes-0088F0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language_Evaluation-1677C8?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Data_Quality-021B33?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Microsoft_Excel-0088F0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LiDAR_Point_Cloud-1677C8?style=for-the-badge"/>
+</p>
+
+-----
+
+---
+
+## 📂 Portfolio Projects
+
+**1. LiDAR Point Cloud Annotation – Parking Lot**  
+3D object identification, vehicle recognition, and point cloud annotation.
+
+**2. 3D Bounding Box Annotation**  
+3D object localization, bounding box placement, and spatial labeling.
+
+**3. First-Person Video Annotation**  
+Human activity, object interaction, and movement annotation.
+
+**4. Robotics Motion Capture**  
+Human motion annotation and activity description.
+
+**5. Floor Plan Annotation**  
+Room identification, object labeling, and spatial annotation.
+
+
 ### 💼 Experience & Skills
 
 - AI Data Annotation and Evaluation
@@ -24,25 +63,38 @@ I have hands-on experience in AI data annotation, video annotation, robotics mot
 - Transcription and Language Evaluation
 - Microsoft Excel (Intermediate)
 
-### 🛠️ Project Experience
+### 💼 Project Experience
 
-- **Outlier:** AI data annotation and evaluation
-- **Outlier Aether:** Image annotation, image description, prompt response, and AI response/image evaluation based on project guidelines
-- **Sovrano AI:** Robotics motion capture
-- **Chemin:** Parking lot detection and floor plan annotation
-- **Outlier Cribbage Tail:** First-person video annotation
-- **ConsultBae:** Email data collection and EML file conversion
+- **AI Data Annotation & Evaluation:** Image annotation, image description, prompt response, and AI response/image evaluation based on project guidelines.
+- **Robotics Motion Capture:** Human movement annotation and action description.
+- **Parking Lot & Floor Plan Annotation:** Vehicle detection, spatial labeling, and floor plan annotation.
+- **First-Person Video Annotation:** Human activity, object interaction, and movement annotation.
+- **Email Data Collection:** Email data collection, organization, and EML file conversion.
 
 ### 🌍 Languages
 
 - Indonesian: Native
 - English: Professional reading and writing
 
-### 📫 Connect With Me
+---
 
-- LinkedIn: [Atmansyah Lubis](https://linkedin.com/in/atmansyah-lubis-669543173)
-- Portfolio: https://github.com/Atmansyah
-- Email: gjkt.1712@gmail.com
+## 📬 Contact & Connect
+
+<p align="left">
+  <a href="https://github.com/Atmansyah">
+    <img src="https://img.shields.io/badge/GitHub-021B33?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://linkedin.com/in/atmansyah-lubis-669543173">
+    <img src="https://img.shields.io/badge/LinkedIn-0088F0?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+<a href="mailto:gjkt.1712@gmail.com">
+  <img src="https://img.shields.io/badge/Email-1677C8?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://wa.me/6281220803317">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
 
 ---
 
