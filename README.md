@@ -27,7 +27,7 @@ I also have experience working with structured annotation guidelines, evaluating
   <img src="https://img.shields.io/badge/Language_Evaluation-1677C8?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Data_Quality-021B33?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Microsoft_Excel-0088F0?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LiDAR_Point_Cloud-1677C8?style=for-the-badge"/>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/blob/main/parking-lot-detection/README.md"><img src="https://img.shields.io/badge/LiDAR_Point_Cloud-1677C8?style=for-the-badge"/></a>
 </p>
 
 -----
