@@ -3,7 +3,6 @@
 </p>
 
 
-### AI Data Annotator | AI Trainer | Data Quality Evaluator
 
 I'm a native Indonesian (ID-ID) speaker with a background in warehouse operations and inventory management, bringing strong attention to detail, accuracy, and quality control to AI data projects.
 
