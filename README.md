@@ -3,8 +3,13 @@
 </p>
 
 
+---
 
-I'm a native Indonesian (ID-ID) speaker with a background in warehouse operations and inventory management, bringing strong attention to detail, accuracy, and quality control to AI data projects.
+## 👋 About Me
+
+I'm a native Indonesian (ID-ID) speaker and AI Trainer with hands-on experience in AI data annotation, video annotation, robotics motion capture, and AI response evaluation.
+
+With a background in warehouse operations and inventory management, I bring strong attention to detail, analytical thinking, and quality control to AI data projects.
 
 I have hands-on experience in AI data annotation, video annotation, robotics motion capture, and AI response evaluation.
 
