@@ -26,7 +26,9 @@ I also have experience working with structured annotation guidelines, evaluating
  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/3d-bounding-box-annotation">
   <img src="https://img.shields.io/badge/3D_Bounding_Boxes-0088F0?style=for-the-badge"/>
 </a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/language-evaluation">
   <img src="https://img.shields.io/badge/Language_Evaluation-1677C8?style=for-the-badge"/>
+</a>
   <img src="https://img.shields.io/badge/Data_Quality-021B33?style=for-the-badge"/>
   <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/plan-floor-annotation"><img src="https://img.shields.io/badge/Floor_Plan_Annotation-0088F0?style=for-the-badge"/></a>
   <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/lidar-point-cloud-parking-lot-annotation"><img src="https://img.shields.io/badge/LiDAR_Point_Cloud_Annotation-0088F0?style=for-the-badge"/></a>
