@@ -16,18 +16,20 @@ I also have experience working with structured annotation guidelines, evaluating
 
 ---
 
+
 ## 💼 Professional Skills
 
 <p align="left">
-    <img src="https://img.shields.io/badge/AI_Evaluation-0088F0?style=for-the-badge"/>
-  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/blob/main/video-annotation/README.md"><img src="https://img.shields.io/badge/Video_Annotation-1677C8?style=for-the-badge"/></a>
-  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/blob/main/robotics-motion-capture/README.md"><img src="https://img.shields.io/badge/Robotics_Motion_Capture-021B33?style=for-the-badge"/></a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/ai-evaluation"><img src="https://img.shields.io/badge/AI_Evaluation-0088F0?style=for-the-badge"/></a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/video-annotation"><img src="https://img.shields.io/badge/Video_Annotation-1677C8?style=for-the-badge"/></a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/robotics-motion-capture"><img src="https://img.shields.io/badge/Robotics_Motion_Capture-021B33?style=for-the-badge"/></a>
   <img src="https://img.shields.io/badge/3D_Bounding_Boxes-0088F0?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Language_Evaluation-1677C8?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Data_Quality-021B33?style=for-the-badge"/>
-  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/blob/main/plan-floor-annotation/README.md"><img src="https://img.shields.io/badge/Floor_Plan_Annotation-0088F0?style=for-the-badge"/></a>
-  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/blob/main/lidar-point-cloud-parking-lot-annotation/README.md"><img src="https://img.shields.io/badge/LiDAR_Point_Cloud_Annotation-0088F0?style=for-the-badge"/></a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/plan-floor-annotation"><img src="https://img.shields.io/badge/Floor_Plan_Annotation-0088F0?style=for-the-badge"/></a>
+  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/lidar-point-cloud-parking-lot-annotation"><img src="https://img.shields.io/badge/LiDAR_Point_Cloud_Annotation-0088F0?style=for-the-badge"/></a>
 </p>
+
 
 -----
 
