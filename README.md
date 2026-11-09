@@ -23,7 +23,7 @@ I also have experience working with structured annotation guidelines, evaluating
   <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/ai-evaluation"><img src="https://img.shields.io/badge/AI_Evaluation-0088F0?style=for-the-badge"/></a>
   <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/video-annotation"><img src="https://img.shields.io/badge/Video_Annotation-1677C8?style=for-the-badge"/></a>
   <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/robotics-motion-capture"><img src="https://img.shields.io/badge/Robotics_Motion_Capture-021B33?style=for-the-badge"/></a>
-  <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/3d-bounding-box">
+ <a href="https://github.com/Atmansyah/ai-data-annotation-portfolio/tree/main/3d-bounding-box-annotation">
   <img src="https://img.shields.io/badge/3D_Bounding_Boxes-0088F0?style=for-the-badge"/>
 </a>
   <img src="https://img.shields.io/badge/Language_Evaluation-1677C8?style=for-the-badge"/>
