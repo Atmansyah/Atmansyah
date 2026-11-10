@@ -2,12 +2,12 @@
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/Banner.png" width="100%" alt="Atmansyah Lubis - AI Trainer">
 </p>
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center" valign="middle">
+    <td align="left" valign="middle">
       <video src="https://github.com/user-attachments/assets/e6c95458-f0fe-4d47-a0ea-fdde59047c04" controls width="200"></video>
     </td>
-    <td align="center" valign="middle">
+    <td align="right" valign="middle">
       <img src="clock.svg" width="400" alt="Local time Indonesia">
     </td>
   </tr>
