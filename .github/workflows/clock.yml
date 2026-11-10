@@ -1,0 +1,44 @@
+
+name: Update Digital Clock
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-clock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate WIB Clock
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(ZoneInfo("Asia/Jakarta"))
+          clock = now.strftime("%H:%M:%S")
+          date = now.strftime("%A, %d %B %Y")
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="115" viewBox="0 0 560 115">
+          <rect width="560" height="115" rx="14" fill="#080D18"/>
+          <text x="280" y="27" fill="#8AA5C8" font-size="12" text-anchor="middle" font-family="Arial" letter-spacing="3">LOCAL TIME · INDONESIA</text>
+          <text x="280" y="76" fill="#48A9FF" font-size="43" font-weight="bold" text-anchor="middle" font-family="monospace">{clock}</text>
+          <text x="280" y="100" fill="#A6B8D0" font-size="11" text-anchor="middle" font-family="Arial">{date} · WIB (GMT+7)</text>
+          </svg>'''
+
+          with open("clock.svg", "w") as f:
+              f.write(svg)
+          PY
+
+      - name: Commit Clock
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clock.svg
+          git diff --cached --quiet || (git commit -m "Update digital clock" && git push)
