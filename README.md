@@ -1,14 +1,17 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/Banner.png" width="100%" alt="Atmansyah Lubis - AI Trainer">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/clock.svg" width="420" alt="Indonesia Digital Clock">
-</p>
-<p align="center">
-  🎵 <a href="https://atmansyah.github.io/Atmansyah/music/" target="_blank">
-    <b>Listen to My Favorite Song 🎧</b>
-  </a>
-</p>
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <video src="https://github.com/user-attachments/assets/e6c95458-f0fe-4d47-a0ea-fdde59047c04" controls width="200"></video>
+    </td>
+    <td align="center" valign="middle">
+      <img src="clock.svg" width="400" alt="Local time Indonesia">
+    </td>
+  </tr>
+</table>
 
 ## 🐍 GitHub Contributions
 
