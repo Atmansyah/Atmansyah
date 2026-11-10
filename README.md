@@ -2,9 +2,8 @@
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/Banner.png" width="100%" alt="Atmansyah Lubis - AI Trainer">
 </p>
 <img align="right" src="clock.svg" width="250" alt="Local time Indonesia">
-<video src="https://github.com/user-attachments/assets/e6c95458-f0fe-4d47-a0ea-fdde59047c04" controls width="200"></video>
-
-  
+<video src="https://github.com/user-attachments/assets/e6c95458-f0fe-4d47-a0ea-fdde59047c04" controls width="50"></video>
+ 
 
 ## 🐍 GitHub Contributions
 
