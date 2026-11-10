@@ -5,6 +5,12 @@
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/clock.svg" width="420" alt="Indonesia Digital Clock">
 </p>
 
+## 🐍 GitHub Contributions
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake">
+</p>
+
 ---
 
 
