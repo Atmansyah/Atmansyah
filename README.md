@@ -6,15 +6,11 @@
 <video src="https://github.com/user-attachments/assets/ddebf3d7-dcee-4e48-9cf4-7ca272a3caa3" controls width="50"></video>
 
 
-## 🐍 GitHub Contributions
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=AI+Data+Annotator;AI+Trainer;Video+Annotation;Robotics+Motion+Capture" alt="Typing animation">
 </p>
 
 ---
-
-
 ## 👋 About Me
 
 I'm a native Indonesian (ID-ID) speaker and AI Trainer with hands-on experience in AI data annotation, video annotation, robotics motion capture, and AI response evaluation.
