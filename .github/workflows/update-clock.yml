@@ -1,0 +1,89 @@
+name: Update clock
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-clock
+  cancel-in-progress: true
+
+jobs:
+  clock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate clock.svg (WIB)
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          
+          now = datetime.now(ZoneInfo("Asia/Jakarta"))
+          H, M, S = now.hour, now.minute, now.second
+          DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+          MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+          date_txt = f"{DAYS[now.weekday()]}, {now.day} {MONTHS[now.month-1]} {now.year} · WIB (GMT+7)"
+          
+          W, HT = 420, 100
+          DW, CW, DH = 30, 16, 50          # digit width, colon width, digit box height
+          total = 6*DW + 2*CW
+          x = (W - total) / 2
+          top = 28
+          
+          # (name, value, steps, period_s, elapsed_s)
+          digits = [
+              ("h1", H // 10, None, None, None), ("h2", H % 10, None, None, None), "colon",
+              ("m1", M // 10, 6, 3600, (M//10)*600 + (M%10)*60 + S),
+              ("m2", M % 10, 10, 600, (M%10)*60 + S), "colon",
+              ("s1", S // 10, 6, 60, S),
+              ("s2", S % 10, 10, 10, S % 10),
+          ]
+          
+          css, body = "", ""
+          for d in digits:
+              if d == "colon":
+                  body += f'<text x="{x+CW/2:.1f}" y="{top+38}" text-anchor="middle" class="num" opacity=".8">:</text>'
+                  x += CW
+                  continue
+              name, val, n, period, el = d
+              if n is None:  # static hour digit
+                  body += f'<text x="{x+DW/2:.1f}" y="{top+38}" text-anchor="middle" class="num">{val}</text>'
+              else:
+                  strip = "".join(f'<text x="{DW/2}" y="{i*DH+38}" text-anchor="middle" class="num">{i}</text>' for i in range(n))
+                  body += (f'<svg x="{x:.1f}" y="{top}" width="{DW}" height="{DH}" viewBox="0 0 {DW} {DH}" overflow="hidden">'
+                           f'<g class="{name}">{strip}</g></svg>')
+                  css += (f'.{name}{{animation:t{n} {period}s steps({n},end) infinite;animation-delay:-{el}s}}')
+              x += DW
+          
+          kf = "".join(f'@keyframes t{n}{{from{{transform:translateY(0)}}to{{transform:translateY(-{n*DH}px)}}}}' for n in (6,10))
+          
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{HT+14}" viewBox="0 0 {W} {HT+14}">
+          <defs><filter id="g" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+          <style>
+          .num{{font-family:Consolas,Menlo,'Courier New',monospace;font-size:46px;font-weight:700;fill:#1E9BFF}}
+          .lbl{{font-family:'Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:3px;fill:#3AA0FF}}
+          .dt{{font-family:'Segoe UI',Arial,sans-serif;font-size:10px;fill:#8FB8E0}}
+          {kf}{css}
+          </style>
+          <rect x="1" y="1" width="{W-2}" height="{HT+12}" rx="14" fill="#06121F" stroke="#0A4C8F" stroke-opacity=".6"/>
+          <text x="{W/2}" y="20" text-anchor="middle" class="lbl">LOCAL TIME · INDONESIA</text>
+          <g filter="url(#g)">{body}</g>
+          <text x="{W/2}" y="{HT+4}" text-anchor="middle" class="dt">{date_txt}</text>
+          </svg>'''
+          open("clock.svg", "w", encoding="utf-8").write(svg)
+          print(now.strftime("%H:%M:%S"))
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clock.svg
+          git commit -m "chore: update clock" || exit 0
+          git push
