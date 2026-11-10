@@ -2,6 +2,11 @@
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/Banner.png" width="100%" alt="Atmansyah Lubis - AI Trainer">
 </p>
 <p align="center">
+  🎵 <a href="https://atmansyah.github.io/Atmansyah/music/">
+    <b>Listen to My Favorite Song</b>
+  </a>
+</p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/clock.svg" width="420" alt="Indonesia Digital Clock">
 </p>
 <p align="center">
