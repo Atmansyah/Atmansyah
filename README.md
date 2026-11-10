@@ -90,19 +90,11 @@ Room identification, object labeling, and spatial layout annotation.
 ## 📬 Contact & Connect
 
 <p align="left">
-  <a href="https://github.com/Atmansyah">
-    <img src="https://img.shields.io/badge/GitHub-021B33?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://linkedin.com/in/atmansyah-lubis-669543173">
-    <img src="https://img.shields.io/badge/LinkedIn-0088F0?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+  <a href="https://github.com/Atmansyah"><img src="https://img.shields.io/badge/GitHub-0088F0?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/atmansyah-lubis-669543173"><img src="https://img.shields.io/badge/LinkedIn-0088F0?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:gjkt.1712@gmail.com"><img src="https://img.shields.io/badge/Email-0088F0?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
-<a href="mailto:gjkt.1712@gmail.com">
-  <img src="https://img.shields.io/badge/Email-1677C8?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://wa.me/6281220803317">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
+
 
 ## Portfolio Preview
 
