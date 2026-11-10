@@ -4,6 +4,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/clock.svg" width="420" alt="Indonesia Digital Clock">
 </p>
+<p align="center">
+  <audio controls>
+    <source src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/background.mp3" type="audio/mpeg">
+  </audio>
+</p>
 
 ## 🐍 GitHub Contributions
 
