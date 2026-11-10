@@ -1,7 +1,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/banner.svg" width="100%" alt="Atmansyah Lubis - AI Trainer">
 </p>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Atmansyah/Atmansyah/main/clock.svg" width="420" alt="Indonesia Digital Clock">
+</p>
 
 ---
 
