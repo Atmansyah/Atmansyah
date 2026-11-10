@@ -4,7 +4,7 @@
 .num{font-family:Consolas,Menlo,'Courier New',monospace;font-size:46px;font-weight:700;fill:#1E9BFF}
 .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:11px;letter-spacing:3px;fill:#3AA0FF}
 .dt{font-family:'Segoe UI',Arial,sans-serif;font-size:10px;fill:#8FB8E0}
-@keyframes t6{from{transform:translateY(0)}to{transform:translateY(-300px)}}@keyframes t10{from{transform:translateY(0)}to{transform:translateY(-500px)}}.m1{animation:t6 3600s steps(6,end) infinite;animation-delay:-3081s}.m2{animation:t10 600s steps(10,end) infinite;animation-delay:-81s}.s1{animation:t6 60s steps(6,end) infinite;animation-delay:-21s}.s2{animation:t10 10s steps(10,end) infinite;animation-delay:-1s}
+@keyframes t6{from{transform:translateY(0)}to{transform:translateY(-300px)}}@keyframes t10{from{transform:translateY(0)}to{transform:translateY(-500px)}}.m1{animation:t6 3600s steps(6,end) infinite;animation-delay:-2554s}.m2{animation:t10 600s steps(10,end) infinite;animation-delay:-154s}.s1{animation:t6 60s steps(6,end) infinite;animation-delay:-34s}.s2{animation:t10 10s steps(10,end) infinite;animation-delay:-4s}
 </style>
 <rect x="1" y="1" width="418" height="112" rx="14" fill="#06121F" stroke="#0A4C8F" stroke-opacity=".6"/>
 <text x="210.0" y="20" text-anchor="middle" class="lbl">LOCAL TIME · INDONESIA</text>
