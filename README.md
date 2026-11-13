@@ -5,7 +5,14 @@
 <img align="right" src="clock.svg" width="400" alt="Local time Indonesia">
 
 
-<video src="https://github.com/user-attachments/assets/3bf86c2f-d2e1-44a1-bcd7-033032fbecae" controls width="50"></video>
+
+
+
+
+https://github.com/user-attachments/assets/115e1ec2-6a04-42db-9324-098ba7fc4c7d
+
+
+
 
 
 
