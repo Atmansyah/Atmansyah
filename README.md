@@ -3,7 +3,10 @@
 </p>
 
 <img align="right" src="clock.svg" width="400" alt="Local time Indonesia">
-<video src="https://github.com/user-attachments/assets/ddebf3d7-dcee-4e48-9cf4-7ca272a3caa3" controls width="50"></video>
+
+
+<video src="https://github.com/user-attachments/assets/3bf86c2f-d2e1-44a1-bcd7-033032fbecae" controls width="50"></video>
+
 
 
 <p align="center">
